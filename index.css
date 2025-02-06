@@ -323,6 +323,16 @@ img{
         display: flex;
     }
 
+    .featured-article{
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5), /* Black overlay with 50% opacity */
+        rgba(0, 0, 0, 0.5)
+    ),url("images/article photo.jpg");
+    background-size: cover;  this is the image, it is not displaying properly on mobile view 
+    height: 100vh;
+    grid-area: feat;
+}
+
     .nav-container{
         background-color: transparent;
         position: static;
