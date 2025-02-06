@@ -142,20 +142,16 @@ footer p{
     padding: 0.5em;
   }
 
-   .featured-article {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
+   .featured-article{
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5), /* Black overlay with 50% opacity */
         rgba(0, 0, 0, 0.5)
-    ), url("images/article-photo.jpg");
-
-    background-size: cover;  
-    background-position: center; /* Ensures the focal point stays visible */
-    background-repeat: no-repeat;
+    ),url("images/article photo.jpg");
+    background-size: cover;  this is the image, it is not displaying properly on mobile view 
     height: 100vh;
     width: 100%;
     grid-area: feat;
 }
-
 
 
 body{
